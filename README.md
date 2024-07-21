@@ -7,3 +7,9 @@ e.g:- modifier = Modifier.clickable {  })
 e.g:- modifier = Modifier.combinedClickable ( onClick = {  }, onLongClick = {  } )
 
 3 (The draggable modifier):- This modifier allows for the detection of drag gestures, allowing for the implementation of drag-and-drop functionality within a UI.
+e.g:- modifier = Modifier.draggable(
+    state = state,
+    orientation = Orientation.Vertical,
+    onDragStarted = { Log.d("Box", "Starting Drag") },
+    onDragStopped = { Log.d("Box", "Finishing Drag") }
+)
