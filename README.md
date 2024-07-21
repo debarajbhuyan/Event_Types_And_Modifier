@@ -13,3 +13,5 @@ e.g:- modifier = Modifier.draggable(
     onDragStarted = { Log.d("Box", "Starting Drag") },
     onDragStopped = { Log.d("Box", "Finishing Drag") }
 )
+You can filter messages in Logcat by the tag "Box". Also use the functionality on UI.
+![Screenshot 2024-07-21 235810](https://github.com/user-attachments/assets/619f73c1-b65d-4b1c-9b4c-69f2f8f04c01)
